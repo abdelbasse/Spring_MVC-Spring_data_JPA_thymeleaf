@@ -1,7 +1,7 @@
-package com.tp.hopital;
+package ma.enset.hopital;
 
-import com.tp.hopital.model.Patient;
-import com.tp.hopital.rep.PatientRepo;
+import ma.enset.hopital.model.Patient;
+import ma.enset.hopital.repo.PatientRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -28,5 +28,4 @@ public class HopitalApplication implements CommandLineRunner {
 
 
 	}
-
 }
