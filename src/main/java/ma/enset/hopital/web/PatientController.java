@@ -41,6 +41,12 @@ public class PatientController {
 //        return "patients";
 //    }
 
+    @GetMapping("/delete")
+    public String delete(Long id){
+        patientRepository.deleteById(id);
+        return "redirect:/index";
+    }
+
     @GetMapping("/")
     public String home(Model model){
         return "index";
